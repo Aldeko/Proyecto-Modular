@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="app.css">
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div style="text-align:center">
+            <h2>Sobre Nosotros</h2>
+            <p>Pasese a tomar un café y a ver nuestro catálogo fisico:</p>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="3D office.jpg" style="width:100%">
+            </div>
+            <div class="column">
+                <form action="/action_page.php">
+                    <label for="fname">Nombre</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Apellido</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">País</label>
+                    <select id="country" name="country">
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,8 +1,8 @@
 ﻿* {
     box-sizing: border-box;
 }
-
 /* Style inputs */
+/*CONTACT FORM*/
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -29,6 +29,7 @@ input[type=submit] {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
+    font-family:Arial;
 }
 
 /* Create two columns that float next to eachother */
@@ -53,3 +54,43 @@ input[type=submit] {
         margin-top: 0;
     }
 }
+
+/*--------------------------*/
+
+body {
+    
+
+    /*background: #202a3f;*/
+    background-image: url("steve.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 800px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.container {
+    margin-top: 200px;
+}
+
+.glyphicon-search {
+    font-size: 30px;
+}
+
+btn-default {
+    background: orange;
+    width: 100px;
+    padding: 12.5px;
+}
+
+.form-control {
+    padding: 25px;
+    font-size: 20px;
+}
+/*--------------------------*/
+.bs-example{
+    background-color:black;
+    
+}
+

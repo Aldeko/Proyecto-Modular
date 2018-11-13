@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Esto va hace que veamos en todos los dispositivo igual-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css"> <!--W3.CSS should take care of all our styling needs and all device and browser differences:-->
+    <!--The fa fa classes are Font Awesome Icon classes.
+    To use these classes you must link to a Font Awesome library-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css" />
+    <title></title>
+</head>
+<body>
+    <!--<nav class="w3-bar w3-black">
+        <a href="HTML1.html" class="w3-button w3-bar-item">Home</a>
+        <a href="#buscar" class="w3-button w3-bar-item">Buscar</a>
+        <a href="#acercade" class="w3-button w3-bar-item">Acerca de</a>
+    </nav>-->
+    <div class="bs-example">
+        <ul class="nav nav-pills">
+            <li class="active"><a href="HTML1.html">Home</a></li>
+            <li><a href="HTML3.html">Buscar</a></li>
+            <li><a href="HTML2.html">Donde estamos</a></li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Galeria <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">El establecimiento</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Posters de peliculas</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <form>
+            <div class="input-group">
+                <div id="info"></div>
+                <input type="text" id="title" placeholder="¿Que buscas?" />
+                <div class="input-group-btn">
+                    <input type="button" class="btn btn-default" onclick="obtainData()">
+                    <i class="glyphicon glyphicon-search"></i>
+                </div>
+            </div>
+            <div />
+        </form>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>

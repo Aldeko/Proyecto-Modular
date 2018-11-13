@@ -3,14 +3,33 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--Esto va hace que veamos en todos los dispositivo igual-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
     <link rel="stylesheet" href="app.css">
     <title></title>
 </head>
-<body>
+<body style="background-image: none;">
+    <div class="bs-example">
+        <ul class="nav nav-pills">
+            <li class="active"><a href="HTML1.html">Home</a></li>
+            <li><a href="HTML3.html">Buscar</a></li>
+            <li><a href="HTML2.html">Donde estamos</a></li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Galeria <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">El establecimiento</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Posters de peliculas</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
     <div class="container">
         <div style="text-align:center">
-            <h2>Sobre Nosotros</h2>
-            <p>Pasese a tomar un café y a ver nuestro catálogo fisico:</p>
+            <h2>Contactanos</h2>
+            <p>Pasa a mirar nuestro catálogo o déjanos un mensaje</p>
         </div>
         <div class="row">
             <div class="column">
@@ -19,17 +38,17 @@
             <div class="column">
                 <form action="/action_page.php">
                     <label for="fname">Nombre</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <input type="text" id="fname" name="firstname" placeholder="Tu nombre..">
                     <label for="lname">Apellido</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <label for="country">País</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Tu apellido..">
+                    <label for="ciudad">Ciudad</label>
                     <select id="country" name="country">
-                        <option value="australia">Australia</option>
-                        <option value="canada">Canada</option>
-                        <option value="usa">USA</option>
+                        <option value="gernika">Gernika</option>
+                        <option value="bilbo">Bilbo</option>
+                        <option value="laudio">Laudio</option>
                     </select>
                     <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    <textarea id="subject" name="subject" placeholder="Escribe algo.." style="height:170px"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </div>
